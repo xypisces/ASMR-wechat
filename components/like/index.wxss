@@ -1,19 +1,15 @@
-/* components/like/index.wxss */
-.container{
+/* components/likes/index.js.wxss */
+.container {
   display: inline-flex;
   padding: 10rpx;
 }
-
-.container image {
+.container image{
   width: 32rpx;
   height: 28rpx;
 }
-
-.container text {
+.container text{
   font-size: 24rpx;
-  line-height: 24rpx;
-  color: #bbb;
   position: relative;
-  bottom: 10rpx;
+  bottom: 15rpx;
   left: 5rpx;
 }
