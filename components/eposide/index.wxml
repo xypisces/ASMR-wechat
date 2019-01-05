@@ -1,0 +1,11 @@
+<view class='eposide'>
+  <view class='eposide_left'>
+    <text class='left_no'>No.</text>
+    <text class='left_index'>{{_index}}</text>
+    <view class='left_line'></view>
+  </view>
+  <view class='eposide_right'>
+    <text class='right_month'>{{month}}</text>
+    <text class='right_year'>{{year}}</text>
+  </view>
+</view>

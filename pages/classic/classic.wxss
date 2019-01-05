@@ -1,1 +1,19 @@
 /* pages/classic/classic.wxss */
+
+.header{
+  display: flex;
+  height: 100rpx;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.header_side{
+  margin-left: 20rpx;
+  margin-top: 4rpx;
+}
+
+.header_like{
+  margin-top: 6rpx;
+}

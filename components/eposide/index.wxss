@@ -1,0 +1,41 @@
+/* components/classic/eposide/index.wxss */
+.eposide{
+  height: 60rpx;
+  display: inline-flex
+}
+.eposide_left{
+  display: flex;
+  align-items: baseline;
+}
+
+.left_no{
+  font-size: 32rpx;
+}
+
+.left_index{
+  font-size: 60rpx;
+  line-height: 60rpx;
+  font-weight: 800;
+  margin-right: 14rpx;
+}
+.left_line{
+  height: 44rpx;
+  margin-right: 14rpx;
+  border-left: 1px solid #000;
+  margin-bottom: 2rpx;
+}
+
+.eposide_right{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+}
+
+.right_month{
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+
+.right_year{
+  font-size: 20rpx;
+}
