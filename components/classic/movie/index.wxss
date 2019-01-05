@@ -1,0 +1,25 @@
+/* components/classic/movie/index.wxss */
+
+.movie_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie_pic {
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.movie_tag {
+  width: 46rpx;
+  height: 142rpx;
+  position: relative;
+  right: 310rpx;
+  bottom: 58rpx;
+}
+
+.movie_text {
+  font-size: 36rpx;
+  max-width: 550rpx;
+}

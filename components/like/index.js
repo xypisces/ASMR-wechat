@@ -32,6 +32,8 @@ Component({
         like:!like,
         count,
       })
+      let isLike = this.data.like ? 'like' : 'unlike'
+      this.triggerEvent('like',{isLike})
     },
   }
 })
