@@ -3,4 +3,5 @@
 .idea/
 Pipfile.lock
 project.config.json
+config.js
 node_modules

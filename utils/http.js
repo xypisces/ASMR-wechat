@@ -22,7 +22,7 @@
        success: (res) => {
          let code = res.statusCode.toString()
          if (code.startsWith('2')) {
-           params.success(res)
+           params.success(res.data)
          } else {
            this._show_error()
          }
