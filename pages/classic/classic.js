@@ -13,10 +13,20 @@ Page({
    */
   data: {
     classic: null,
+    lastes: true,
+    first: false,
   },
 
   onLike: function(e) {
     likeModel.onLike(e.detail.isLike, this.data.classic.id, this.data.classic.type)
+  },
+
+  onNext: function(e) {
+    console.log('onnext', e)
+  },
+
+  onPrevious: function(e) {
+    console.log('onpre', e)
   },
 
   /**
